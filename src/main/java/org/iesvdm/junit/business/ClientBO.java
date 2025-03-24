@@ -6,6 +6,9 @@ import org.iesvdm.junit.business.exception.DifferentCurrenciesException;
 import org.iesvdm.junit.model.Amount;
 import org.iesvdm.junit.model.Product;
 
+/**
+ * seguimiento
+ */
 public interface ClientBO {
 
 	Amount getClientProductsSum(List<Product> products)
